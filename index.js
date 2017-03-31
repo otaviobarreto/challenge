@@ -29,7 +29,7 @@ funcs.loadDb(dbFile, function (err, db) {
   var nextMessage = funcs.findNextMessage(inbox, session.lastMessageHash)
 
   // 5. print out the message.
-  // Paste the console output into the "Solution" field and you're done!
+  
   console.log(nextMessage)
 })
 
